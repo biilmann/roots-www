@@ -19,6 +19,7 @@
     "marked": "0.3.x",
     "moment": "2.x",
     "parallax.js": "jenius/parallax",
+    "roots": "^3.0.0",
     "roots-browserify": "0.3.x",
     "roots-yaml": "0.0.4",
     "rupture": "0.6.x",
