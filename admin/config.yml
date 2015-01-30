@@ -1,0 +1,10 @@
+repo: biilmann/roots-www
+branch: master
+collections:
+  - slug: "docs"
+    label: "Doc Page"
+    create: true
+    folder: "docs"
+    format: "markdown-jade"
+    fields:
+      - {label: "Body", name: "body", widget: "markdown"}
