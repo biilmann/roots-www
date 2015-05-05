@@ -6,7 +6,7 @@ html
     script.
       try{Typekit.load();}catch(e){}
     title Roos Docs CMS
-    link(rel="stylesheet" href="//ember-cms.netlify.com/assets/cms.css")
+    link(rel="stylesheet" href="//cms.netlify.com/assets/cms.css")
     link(rel='stylesheet', href='/css/master.css')
     link(rel='stylesheet', href='/css/admin.css')
     base(href="/admin/")
@@ -18,10 +18,8 @@ html
           h2 enlightened static sites
 
         .links
-          a(href='/docs') Home
-          {{#link-to 'home'}}Admin {{/link-to}}
-          a(href="#") {{currentAction}}
-
+          {{cms-breadcrumbs}}
+          
         img.light-rays(src='/img/index/light-rays.svg')
 
         .trees
@@ -43,6 +41,5 @@ html
       #footer.single
         a(href='http://carrot.is'): img.built-at-carrot(src='/img/single/built-at-carrot.svg')
 
-    script(src="//ember-cms.netlify.com/assets/vendor.js")
-    script(src="//ember-cms.netlify.com/assets/cms.js")
-    script netlify.configure({site_id: 'roots-www-cms.netlify.com'})
+    script(src="//cms.netlify.com/assets/vendor.js")
+    script(src="//cms.netlify.com/assets/cms.js")

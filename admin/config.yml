@@ -5,6 +5,6 @@ collections:
     label: "Doc Page"
     create: true
     folder: "docs"
-    format: "markdown-jade"
+    format: "markdown-jade-frontmatter"
     fields:
       - {label: "Body", name: "body", widget: "markdown"}
